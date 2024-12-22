@@ -1,5 +1,5 @@
 site_name: My MkDocs Material Documentation
-site_url: https://tleonhardt.github.io/mkdocs-material-tutorial
+site_url: https://tleonhardt.github.io/mkdocs-material-tutorial/
 repo_url: https://github.com/tleonhardt/mkdocs-material-tutorial
 repo_name: mkdocs-material-tutorial
 edit_uri: edit/main/docs
@@ -82,3 +82,7 @@ extra:
       link: https://www.linkedin.com/in/todd-leonhardt-1976452/
 
 copyright: Copyright &copy; 2024 Todd Leonhardt
+
+plugins:
+  - search
+      
