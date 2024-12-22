@@ -106,11 +106,9 @@ plugins:
   - group:
       enabled: !ENV [OFFLINE, false]
       plugins:
-        - offline:
-            enabled: true
-        - privacy:
-            enabled: true
-
+        - offline
+        - privacy
+        
   # 3rd-party plugins installable from pip
   - git-revision-date-localized:
       enable_creation_date: true
