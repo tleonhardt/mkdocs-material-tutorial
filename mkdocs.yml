@@ -101,6 +101,11 @@ extra:
 copyright: Copyright &copy; 2024 Todd Leonhardt
 
 plugins:
+  # Built into Material theme for MkDocs
   - search
+  - offline:
+      enabled: !ENV [OFFLINE, false]
+
+  # 3rd-party plugins installable from pip
   - git-revision-date-localized:
       enable_creation_date: true
