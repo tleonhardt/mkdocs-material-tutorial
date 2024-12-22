@@ -1,0 +1,2 @@
+git-revision-date-localized
+mkdocs-git-committers-plugin-2

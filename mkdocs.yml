@@ -50,10 +50,13 @@ theme:
       accent: deep purple
 
 markdown_extensions:
+  # Pytyhon Markdown
   - admonition
   - attr_list
   - toc:
       permalink: true
+
+  # Python Markdown Extensions
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
