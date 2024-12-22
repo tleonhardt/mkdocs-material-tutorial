@@ -1,5 +1,5 @@
 site_name: My MkDocs Material Documentation
-site_url: https://tleonhardt.github.io/mkdocs-material-tutorial/
+site_url: https://tleonhardt.github.io/mkdocs-material-tutorial
 theme:
   name: material
   font:
