@@ -86,3 +86,5 @@ copyright: Copyright &copy; 2024 Todd Leonhardt
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
