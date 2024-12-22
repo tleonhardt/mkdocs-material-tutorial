@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://tleonhardt.github.io/mkdocs-material-tutorial/</loc>
+         <lastmod>2024-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://tleonhardt.github.io/mkdocs-material-tutorial/admonitions/</loc>
+         <lastmod>2024-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://tleonhardt.github.io/mkdocs-material-tutorial/code-examples/</loc>
+         <lastmod>2024-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://tleonhardt.github.io/mkdocs-material-tutorial/content-tabs/</loc>
+         <lastmod>2024-12-22</lastmod>
+    </url>
+    <url>
+         <loc>https://tleonhardt.github.io/mkdocs-material-tutorial/diagram-examples/</loc>
+         <lastmod>2024-12-22</lastmod>
+    </url>
+</urlset>
