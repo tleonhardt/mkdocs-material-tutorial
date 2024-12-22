@@ -86,10 +86,3 @@ copyright: Copyright &copy; 2024 Todd Leonhardt
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-  # - git-authors
-  - git-committers:
-      repository: tleonhardt/mkdocs-material-tutorial
-      branch: main
-  - offline
