@@ -1,40 +1,50 @@
 site_name: My MkDocs Material Documentation
 site_url: https://tleonhardt.github.io/mkdocs-material-tutorial
-
+repo_url: https://github.com/tleonhardt/mkdocs-material-tutorial
+repo_name: mkdocs-material-tutorial
+edit_uri: edit/main/docs
+docs_dir: docs
 theme:
   name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/book-open-variant
+    edit: material/pencil
+    view: material/eye
   favicon: assets/favicon.ico
   features:
-    - content.code.copy
+    - navigation.sections
     - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    # - navigation.path
+    - toc.follow
+    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
   font:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: assets/logo.png
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
-      primary: green
-      accent: deep orange
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-      primary: light blue
-      accent: deep purple
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 markdown_extensions:
   - attr_list
