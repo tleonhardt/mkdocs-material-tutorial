@@ -13,6 +13,7 @@ theme:
     edit: material/pencil
     view: material/eye
   favicon: assets/favicon.ico
+  logo: assets/logo.png
   features:
     - navigation.sections
     - navigation.footer
@@ -28,9 +29,8 @@ theme:
     - content.code.annotate
     - content.tabs.link
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  logo: assets/logo.png
+    text: Noto Sans SC
+    code: Fira Code
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -38,6 +38,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+      primary: green
+      accent: deep orange
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -45,6 +47,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+      primary: light blue
+      accent: deep purple
 
 markdown_extensions:
   - attr_list
